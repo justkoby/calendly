@@ -1,0 +1,396 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+
+
+.nav-new {
+    font-family: 'Gilroy-Bold', sans-serif;
+    background-color: white;
+}
+
+.nav-links {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: black;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.homepage-text {
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-size: 68px;
+    padding-left: 24px;
+    padding-top: 40px;
+    color: black;
+}
+
+p {
+    font-family: 'Gilroy-Regular', sans-serif;
+    padding-left: 24px;
+    font-size: 20px;
+}
+
+#email {
+    font-family: 'Gilroy-Medium', sans-serif;
+    border: 1px solid rgb(231, 237, 246);
+    padding-right: 32px;
+    appearance: none;
+    box-shadow: rgb(17 25 39 / 5%) 0px 1px 2px;
+    margin-left: 24px;
+    border-radius: 30px;
+    height: 64px;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+    padding: 0px 120px 0px 32px;
+    font-weight: 500;
+    font-size: 1.125rem;
+    box-shadow: 60%;
+    position: absolute;
+}
+
+#row-button {
+    background-color: black;
+    height: 64px;
+    gap: 8px;
+    font-family: Gilroy;
+    font-weight: 600;
+    min-height: 49px;
+    margin: 8px 0px;
+    border-width: 2px;
+    border-radius: 30px;
+    border-color: transparent;
+    padding: 10px 18px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 1.125rem;
+    box-shadow: 60%;
+    position: relative;
+    margin-left: 330px;
+    margin-top: 0px;
+}
+
+#acc-txt {
+    color: grey;
+    font-size: 15px;
+    padding-left: 45px;
+}
+
+.sec-col {
+    background-color: #f2f3f3;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.sec-col-txt {
+    color: #0b3558;
+    font-family: 'Gilroy-Bold', sans-serif;
+    margin-bottom: 60px;
+    font-size: 30px;
+}
+
+.sec-con {
+    margin-top: 100px;
+}
+
+.third-con{
+    margin-top: 100px;
+    padding-left: 50px;
+}
+
+#number {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color:  #006bff;
+    color: white;
+    padding: 10px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 22px;
+    position: absolute;
+}
+
+.num-head {
+position: relative;
+font-family: 'Gilroy-Bold', sans-serif;
+padding-left: 60px;
+font-size: 40px;
+}
+
+.num-txt {
+    padding-left: 60px;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.individual-text {
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-size: 68px;
+    padding-left: 24px;
+    padding-top: 40px;
+    color: black;
+}
+
+#ind-row-button {
+    background-color: black;
+    height: 64px;
+    gap: 8px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    min-height: 49px;
+    margin: 8px 0px;
+    border-width: 2px;
+    border-radius: 30px;
+    border-color: transparent;
+    padding: 10px 18px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 1.125rem;
+    box-shadow: 60%;
+    margin-left: 23px;
+}
+
+.sec-ind-con {
+    margin-top: 100px;
+}
+
+#sec-ind-h6 {
+    margin-top: 100px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    margin-left: 24px;
+    color: grey;
+    padding-bottom: 30px;
+}
+
+#sec-ind-h3 {
+    font-family: 'Gilroy-Bold', sans-serif;
+    margin-left: 24px;
+    padding-bottom: 30px;
+}
+
+.bg-row {
+    margin-top: 90px;
+}
+
+.bg-class {
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-border-width: 0;
+    --bs-card-border-color: none;
+    --bs-card-border-radius: 0;
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: none;
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(0, 0, 0, 0.03);
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg: #fff;
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--bs-card-height);
+    word-wrap: break-word;
+    background-color: var(--bs-card-bg);
+    background-clip: border-box;
+    border: none;
+    border-radius: 0;
+}
+
+
+.bg-text {
+	font-size: 60px;
+	margin-left: 24px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    margin-top: 150px;
+}
+
+#bg-row-button {
+    background-color: white;
+    height: 64px;
+    gap: 8px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    min-height: 49px;
+    margin: 8px 0px;
+    border-width: 2px;
+    border-radius: 30px;
+    border-color: transparent;
+    padding: 10px 18px;
+    color: black;
+    cursor: pointer;
+    font-size: 1.125rem;
+    box-shadow: 60%;
+    margin-left: 23px;
+}
+
+.footer {
+    margin-top: 30px;
+}
+
+
+.fot-head {
+    font-family: 'Gilroy-Heavy', sans-serif;
+    padding-left: 60px;
+    font-size: 40px;
+    }
+    
+.fot-txt {
+        padding-left: 60px;
+        padding-top: 20px;
+        font-size: 15px;
+    }
+
+    .input-new {
+        margin-left: 26px;
+        font-family: 'Gilroy-Bold', sans-serif;
+    }
+
+    .fot-link {
+        font-family: 'Gilroy-Medium', sans-serif;
+        color: #0b3558;
+        padding-bottom: 15px;
+    }
+
+    .fot-h3 {
+        font-family: 'Gilroy-Heavy', sans-serif;
+    }
+
+    .fot-col {
+        padding-left: 50px;
+        color: #0b3558;
+    }
+
+#team-row-button {
+        background-color: #006bff;
+        height: 64px;
+        gap: 8px;
+        font-family: 'Gilroy-Bold', sans-serif;
+        min-height: 49px;
+        margin: 8px 0px;
+        border-width: 2px;
+        border-radius: 30px;
+        border-color: transparent;
+        padding: 10px 18px;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        font-size: 1.125rem;
+        box-shadow: 60%;
+        margin-left: 23px;
+    }
+
+    #team-row-buttons {
+        background-color: #fff;
+        height: 64px;
+        gap: 8px;
+        font-family: 'Gilroy-Bold', sans-serif;
+        min-height: 49px;
+        margin: 8px 0px;
+        border-width: 2px;
+        border-radius: 30px;
+        border-color: black;
+        padding: 10px 18px;
+        color: black;
+        cursor: pointer;
+        font-size: 1.125rem;
+        box-shadow: 60%;
+        margin-left: 23px;
+    }
+
+    .team-col-txt {
+        color: #0b3558;
+        font-family: 'Gilroy-Bold', sans-serif;
+        margin-bottom: 60px;
+        font-size: 60px;
+    }
+
+    .cards {
+        margin-bottom: 90px;
+    }
+
+    .card-head {
+        font-family: 'Gilroy-Bold', sans-serif;
+        color: #0b3558;
+    }
+
+    .row-head {
+        font-family: 'Gilroy-Bold', sans-serif;
+        color: #006bff;
+    }
+
+    .row-txt {
+        font-family: 'Gilroy-Bold', sans-serif;
+        font-size: 40px;
+        padding-bottom: 30px;
+    }
+
+    .card-txt {
+        padding-left: 0px;
+        font-size: 15px;
+    }
+
+    .card-btn {
+        font-family: 'Gilroy-Bold', sans-serif;
+        color: #006bff;
+        font-size: 18px;
+        padding-top: 14px;
+        margin-top: 10px;
+    }
+
+    .row-heading {
+        font-family: 'Gilroy-Heavy', sans-serif;
+        font-size: 60px;
+        color: black;
+    }
+
+    .new-row {
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+
+    .new-row-txt {
+        font-size: 20px;
+        margin-top: 20px;
+        font-family: 'Gilroy-Medium', sans-serif;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    #new-team-row-button {
+        background-color: black;
+        height: 64px;
+        gap: 8px;
+        font-family: 'Gilroy-Bold', sans-serif;
+        min-height: 49px;
+        margin: 8px 0px;
+        border-width: 2px;
+        border-radius: 30px;
+        border-color: transparent;
+        padding: 10px 18px;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        font-size: 1.125rem;
+        box-shadow: 60%;
+        width: 150px;
+        margin-top: 10px;
+    }
+
+    .new-card-txt {
+        font-family: 'Gilroy-Medium', sans-serif;
+        font-size: 20px;
+    }
+
+    .new-card {
+        margin-top: 70px;
+    }
+
+    .new-card-head {
+        color: #006bff;
+    }
+
+    .new-btn {
+        margin-top: 20px;
+    }
